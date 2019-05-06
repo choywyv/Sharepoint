@@ -1,4 +1,4 @@
-#Quick and dirty way to test connection to Sharepoint using Java with self signed certificate
+# Quick and dirty way to test connection to Sharepoint using Java with self signed certificate
 
 
 **Steps to create self signed certificate**
