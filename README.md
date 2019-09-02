@@ -9,4 +9,6 @@ set OPENSSL_CONF=c:\openssl\bin\openssl.cnf
 openssl req -new -newkey rsa:2048 -x509 -days 30 -nodes -out certname.cer -keyout certname.key
 
 3. using the key file previously, export out as pfx, will prompt for password
+```
 openssl pkcs12 -export -out certname.pfx -inkey certname.key -in certname.cer -name myalias
+```
